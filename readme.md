@@ -1,5 +1,7 @@
 # Package management document library
 
+Originally forked from https://github.com/ipfs-inactive/package-managers
+
 The following items are materials created or collected by the IPFS Package Managers Task Force in order to facilitate research and development and, as such, act as a living inventory and analysis of the present package manager landscape. If you're interested in learning more about package management in general, or integrating IPFS into current-state package managers in particular, you'll find a lot to chew on here.
 
 Is there something missing from this document library? Would you like to contribute your research or analysis? PRs are welcome!
@@ -26,7 +28,7 @@ A cluster board collating pain points and communications channels for package co
 - [Problems with current-state package managers](problems.md)<br/>
 Outline of problems that package publishers, package consumers and package manager maintainers currently experience when working with pre-IPFS package managers. (One of the source documents for the cluster board listed above.)
 
-- [Research by package manager](../package-managers)<br/>
+- [Research by package manager](https://github.com/ipfs-inactive/package-managers/tree/master/package-managers/package-managers)<br/>
 Directory of researched package managers by package format and grouped by usage category, including notes on language, clients and more.
 
 ## User research and analysis
@@ -51,7 +53,7 @@ This decision tree provides a high-level outline of tactical implementation choi
 - [Cladistic tree for implementing IPFS in a package manager](tree.md)<br/>
 A high-level outline of tactical implementation choices one might need to make when designing a package manager with some level of IPFS integration. (Source document for the decision tree listed above.)
 
-- [Category-based approaches for implementing IPFS support](https://github.com/ipfs/package-managers/blob/master/docs/category-based-implementation.md)<br/>
+- [Category-based approaches for implementing IPFS support](category-based-implementation.md)<br/>
 Some possible approaches for implementing IPFS support based on implementation category.
 
 ## Specific implementations
